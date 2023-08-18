@@ -16,7 +16,6 @@ function App() {
     //Check if Meta Mask Extension exists 
     if(window.ethereum) {
       console.log('detected');
-
       try {
         const accounts = await window.ethereum.request({
           method: "eth_requestAccounts",
@@ -25,7 +24,6 @@ function App() {
       } catch (error) {
         console.log('Error connecting...');
       }
-
     } else {
       alert('Meta Mask not detected');
     }
@@ -37,7 +35,6 @@ function App() {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
     }
   }
-
   const showmaxcarefn = () => {
     setshowMaxChar(true)
   }
@@ -55,7 +52,6 @@ function App() {
             cnt = mp.get(str[i]);
         }
     }
-     
     return ans;
 }
    
