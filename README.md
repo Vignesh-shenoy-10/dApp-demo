@@ -3,6 +3,6 @@
 1. Clome the repo
 2. Npm install inside the folder
 
-Metatask docs:
+Metamask docs:
 https://docs.metamask.io/wallet/how-to/connect/set-up-sdk/javascript/react/
 
